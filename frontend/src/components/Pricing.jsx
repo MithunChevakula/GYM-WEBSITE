@@ -29,9 +29,9 @@ const Pricing = () => {
     setTimeout(() => {
       const success = Math.random() > 0.3; // 70% chance of success
       if (success) {
-        alert("✅ Fake Payment Successful!\nWelcome to Elite Edge Fitness!");
+        alert("✅ Payment Successful!\nWelcome to Elite Edge Fitness!");
       } else {
-        alert("❌ Fake Payment Failed!\nPlease try again.");
+        alert("❌ Payment Failed!\nPlease try again.");
       }
     }, 2000); // Simulate delay
   };
