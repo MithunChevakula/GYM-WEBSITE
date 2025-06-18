@@ -18,7 +18,7 @@ const Contact = () => {
 
     try {
       const { data } = await axios.post(
-        "https://gym-website-backend-2vwe.onrender.com",
+        "https://gym-website-backend-heoc.onrender.com",
         { name, email, message },
         {
           withCredentials: true,
